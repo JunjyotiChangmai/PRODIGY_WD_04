@@ -23,8 +23,22 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <!-- <div class="menu-icon"></div> -->
+                <div class="menu-icon" onclick={menuIconHandleClick()}>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="cross-icon" onclick={menuIconHandleClick()}>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
             </nav>
+        </div>
+        <div class="menu-bar">
+            <ul class="menu-container">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
         <div class="header-content">
             <div class="com-pre">Hello,</div>
@@ -38,7 +52,9 @@
             <div class="ab-text-area">
                 <div class="ab-tx">About Me</div>
                 <div class="ab-text">
-                    <h2>Hello, I'm Junjyoti Changmai</h2>
+                    <h2>Hello, I'm Junjyoti
+                    <br> 
+                    Changmai</h2>
                     <p>
                         Currently in my third year pursuing B.Tech in Computer Science and Engineering. Passionate about
                         technology, I envision a career at the forefront of innovation, where I continuously learn and
@@ -72,7 +88,7 @@
             <div class="pro-item">
                 <div class="pro-img"><img src="project2.png" alt="project-image2"></div>
                 <div class="pro-name">Portfolio</div>
-                <div class="pro-about">It is my personal protfolio website develop by using HTML, CSS and JavaScript.
+                <div class="pro-about">It is my personal portfolio website develop by using HTML, CSS and JavaScript.
                 </div>
                 <a href="https://junjyotichangmai.github.io/portfolio-01">
                     <div class="pro-link">View</div>
@@ -81,7 +97,6 @@
             </div>
         </div>
     </section>
-
 
     <section id="skill" class="com-skill">
         <div class="sk-text">Skills</div>
@@ -107,8 +122,6 @@
                 <div class="sk-item-icon">JS</div>
                 <div class="sk-item-name">JavaScript</div>
             </div>
-        </div>
-        <div class="skills-01">
             <div class="sk-items">
                 <div class="sk-item-icon"><i class="fa-brands fa-react"></i></div>
                 <div class="sk-item-name">React.js</div>
@@ -149,8 +162,7 @@
                             <div class="location-icon"><i class="fa-regular fa-envelope" style="color: #3056D3;"></i></div>
                             <div class="loc-email">
                                 <div class="add-title"><h5>Email Address</h5></div>
-                                <div class="add-text"><p>junjyotichangmai17@gmail.com</p></div>
-                                
+                                <div class="add-text"><p>junjyotichangmai17@gmail.com</p></div>    
                             </div>
                         </div>
                     </div>
@@ -191,12 +203,12 @@
         <div class="footer-container">
             <div class="footer-icon">
                 <a href="https://github.com/JunjyotiChangmai"><i class="fa-brands fa-github"></i></a>
-                <a href="https://x.com/junjyotichang"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/changmai-junjyoti"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/junjyotichang"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="mailto:junjyotichangmai17@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
-            <div className="footer-text">
-                <p>&copy; 2024 Junjyoti Changmai. All rights reserved.</p>
+            <div class="footer-text">
+                &copy; 2024 Junjyoti Changmai. All rights reserved.
             </div>
         </div>
     </footer>
